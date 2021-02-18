@@ -1,0 +1,16 @@
+h3{
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  border-bottom:2px solid #ffc107;
+}
+.cursor{
+  cursor: pointer;
+  color: #ff0000;
+}
+
+
+#root{
+  background-color: rgb(133, 131, 131);
+  height: 100vh;
+}
