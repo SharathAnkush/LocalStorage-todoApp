@@ -12,6 +12,7 @@ function App() {
    // Get Todos from local Storage
    useEffect(() => {
      const local = localStorage.getItem('todos')
+     
      if(local){
        setTodos(JSON.parse(local))
      }
@@ -42,10 +43,4 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
 

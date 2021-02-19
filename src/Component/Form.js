@@ -7,8 +7,8 @@ export default function TodoForm({addTodo}) {
     const handleSubmit = e => {
         e.preventDefault()
           const todo = {
-              input, 
-              id: v4()
+                input, 
+                id : v4()
           }
           addTodo(todo);
           setInput('')
@@ -26,3 +26,6 @@ export default function TodoForm({addTodo}) {
         
     )
 }
+
+
+
